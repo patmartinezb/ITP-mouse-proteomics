@@ -10,6 +10,8 @@ csl: blood.csl
 
 Proteomics data analysis (DDA, label-free) performed in the following article:
 
+Patricia Martínez-Botía, Marjolein Meinders, Iris M De Cuyper, Johannes A Eble, John W Semple, Laura Gutiérrez; Platelet Proteomics to Understand the Pathophysiology of Immune Thrombocytopenia: Studies in Mouse Models. *Blood Adv* 2022; bloodadvances.2021006438. doi: <https://doi.org/10.1182/bloodadvances.2021006438>
+
 ## Mass spectrometry data analysis
 
 The RAW MS files were processed with the MaxQuant computational platform (version 1.6.17.0) running on Linux.[@cox2008maxquant; @sinitcyn2018maxquant] Searches were configured for label-free quantification (LFQ), with the options LFQ, match between runs and iBAQ, while the rest of the parameters were set to default. Peptides and proteins were identified using the Andromeda[@cox2011andromeda] search engine against the *Mus musculus* UniProt Swiss-Prot protein database (downloaded November 2020, 17,051 entries). The 'proteinGroups.txt' output table was further analyzed within the R environment (version 4.0.3) (R Project for Statistical Computing).[@rlanguage] Proteins were filtered for potential contaminants, only identified by site and reverse hits, and iBAQ intensities were log2-transformed. We did not further consider biological replicates that did not pass quality control tests (namely \> 35% of missing values). This resulted in the exclusion of some samples that would otherwise have confounded the results.

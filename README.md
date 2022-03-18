@@ -3,6 +3,12 @@
 Proteomics data analysis (DDA, label-free) performed in the following
 article:
 
+Patricia Martínez-Botía, Marjolein Meinders, Iris M De Cuyper, Johannes
+A Eble, John W Semple, Laura Gutiérrez; Platelet Proteomics to
+Understand the Pathophysiology of Immune Thrombocytopenia: Studies in
+Mouse Models. *Blood Adv* 2022; bloodadvances.2021006438. doi:
+<https://doi.org/10.1182/bloodadvances.2021006438>
+
 ## Mass spectrometry data analysis
 
 The RAW MS files were processed with the MaxQuant computational platform
